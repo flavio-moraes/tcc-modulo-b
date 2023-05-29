@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer component renders correctly 1`] = `
+<Footer>
+  <styled.div>
+    <styled.h1>
+      Loja Virtual
+    </styled.h1>
+    <styled.div>
+      <p
+        style={
+          Object {
+            "margin": "0px",
+          }
+        }
+      >
+        Copyright © Loja Virtual S.A. 2021-2023
+      </p>
+      <p
+        style={
+          Object {
+            "margin": "8px 0px",
+          }
+        }
+      >
+        Av Dom José Gaspar, 500
+      </p>
+      <p
+        style={
+          Object {
+            "margin": "8px 0px",
+          }
+        }
+      >
+        CEP 30535-901 - Belo Horizonte/MG 
+        <br />
+        CNPJ 12.345.678/9999-00
+      </p>
+    </styled.div>
+    <styled.div>
+      <styled.div>
+        <Memo(ForwardRef(FacebookIcon)) />
+      </styled.div>
+      <styled.div>
+        <Memo(ForwardRef(InstagramIcon)) />
+      </styled.div>
+      <styled.div>
+        <Memo(ForwardRef(TwitterIcon)) />
+      </styled.div>
+      <styled.div>
+        <Memo(ForwardRef(YouTubeIcon)) />
+      </styled.div>
+    </styled.div>
+  </styled.div>
+  <styled.div>
+    <styled.h3>
+      Links Úteis
+    </styled.h3>
+    <styled.div>
+      <styled.div>
+        <Link
+          to="/"
+        >
+          Página inicial
+        </Link>
+      </styled.div>
+      <styled.div>
+        <Link
+          to="/carrinho"
+        >
+          Carrinho de compras
+        </Link>
+      </styled.div>
+      <styled.div>
+        <Link
+          to="/conta/dados"
+        >
+          Minha conta
+        </Link>
+      </styled.div>
+      <styled.div>
+        <Link
+          to="/conta/pedidos"
+        >
+          Meus pedidos
+        </Link>
+      </styled.div>
+      <styled.div>
+        <Link
+          to="/conta/favoritos"
+        >
+          Lista de desejos
+        </Link>
+      </styled.div>
+      <styled.div>
+        Contato
+      </styled.div>
+      <styled.div>
+        <Link
+          to="/sobre"
+        >
+          Quem somos
+        </Link>
+      </styled.div>
+    </styled.div>
+  </styled.div>
+  <styled.div>
+    <styled.h3>
+      Formas de Pagamento
+    </styled.h3>
+    <styled.div>
+      <styled.img
+        src="/img/visa.svg"
+      />
+      <styled.img
+        src="/img/mastercard.svg"
+      />
+      <styled.img
+        src="/img/amex.svg"
+      />
+      <styled.img
+        src="/img/dinersclub.svg"
+      />
+      <styled.img
+        src="/img/hipercard.svg"
+      />
+      <styled.img
+        src="/img/elo.svg"
+      />
+      <styled.img
+        src="/img/boleto.svg"
+      />
+    </styled.div>
+  </styled.div>
+</Footer>
+`;

@@ -1,0 +1,25 @@
+
+*, *:after, *:before {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  list-style-type: none;
+  font-family: 'Urbanist', sans-serif;
+}
+
+a {
+  color: inherit;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body.lockScroll {
+  position: fixed;
+}
